@@ -5,7 +5,7 @@ const passport=require('passport');
 const mongoose=require('mongoose');
 const authRoutes=require('./routes/authRoutes');
 const keys=require('./config/keys');
-//its very inportant witch is first
+//it's very important witch is first
 require('./models/Users');
 require('./services/passport');
 
